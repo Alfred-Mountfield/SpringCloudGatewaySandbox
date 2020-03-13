@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/spring.cloud.gateway.test/pom.xml" />
+        <option value="$PROJECT_DIR$/oauth-resource-server-test/pom.xml" />
+        <option value="$PROJECT_DIR$/test-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/gateway-test/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_13" default="true" project-jdk-name="13" project-jdk-type="JavaSDK" />
+</project>

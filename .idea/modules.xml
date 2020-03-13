@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SpringCloudGatewayTests.iml" filepath="$PROJECT_DIR$/SpringCloudGatewayTests.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gateway-test/gateway-test.iml" filepath="$PROJECT_DIR$/gateway-test/gateway-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oauth-resource-server-test/oauth-resource-server-test.iml" filepath="$PROJECT_DIR$/oauth-resource-server-test/oauth-resource-server-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test-gateway/spring.cloud.gateway.test.iml" filepath="$PROJECT_DIR$/test-gateway/spring.cloud.gateway.test.iml" />
+    </modules>
+  </component>
+</project>

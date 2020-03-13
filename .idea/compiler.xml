@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring.cloud.gateway.test" />
+        <module name="oauth-resource-server-test" />
+        <module name="gateway-test" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="gateway-test" target="13" />
+      <module name="oauth-resource-server-test" target="13" />
+      <module name="spring.cloud.gateway.test" target="13" />
+      <module name="SpringCloudGatewayTests" target="1.13" />
+      <module name="test-gateway" target="13" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="gateway-test" options="-parameters" />
+      <module name="oauth-resource-server-test" options="-parameters" />
+      <module name="spring.cloud.gateway.test" options="-parameters" />
+      <module name="test-gateway" options="-parameters" />
+    </option>
+  </component>
+</project>
