@@ -1,0 +1,6 @@
+rootProject.name = 'spring-cloud-gateway-sandbox'
+include ':gateway'
+include ':oauth-resource-server'
+
+project(':gateway').projectDir = "$rootDir/gateway" as File
+project(':oauth-resource-server').projectDir = "$rootDir/oauth-resource-server" as File
